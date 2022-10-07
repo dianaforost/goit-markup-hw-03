@@ -330,12 +330,22 @@ span{
     list-style: none;
     border: 1px solid var(--border-color);
 }
+.portfolio-item > img{
+    margin-bottom: 20px;
+}
 .portfolio-title{
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .portfolio-text{
+    margin-bottom: 20px;
     color: var(--secondaryText-color);
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+.portfolio-content{
+    padding-left: 24px;
 }
