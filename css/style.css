@@ -53,13 +53,11 @@ header{
     border-bottom: 1px solid var(--basic-border-color);
 }
 .header{
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .header-logo{
-    padding: 24px 0 25px;
     font-family: var(--font-family-ral);
     font-weight: 700;
     font-size: 26px;
@@ -84,6 +82,8 @@ span{
     margin-right: 50px;
 }
 .header-link{
+    display: inline-block;
+    padding: 31px 0;
     color: var(--brand-color);
     text-decoration:none;
     font-weight: 500;
@@ -120,7 +120,7 @@ span{
 }
 .hero-title{
     margin-bottom: 30px;
-    width: 696px;
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     color: var(--basic-color);
@@ -164,7 +164,7 @@ span{
     justify-content: center;
   }
 .content-item{
-    width: 270px;
+    max-width: 270px;
     list-style: none;
 }
 .content-item:not(:last-child){
@@ -290,6 +290,7 @@ span{
     padding: 94px 0 94px;
 }
 .buttons-list{
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -301,7 +302,6 @@ span{
     margin-right: 8px;
 }
 .btn{
-    margin-bottom: 50px;
     padding: 6px 22px;
     color: var(--brand-color);
     font-size: 16px;
